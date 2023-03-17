@@ -127,3 +127,22 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* Media query con MAX (es. tablet) */
+@media only screen and (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+}
+
+/* Media query con MAX (es. mobile) */
+@media only screen and (max-width:480px) {
+    .row{
+        display: block;
+    }
+    .lessons .col,.steps .col,.why-us .col{
+    width: 100%;
+    margin-bottom: 5rem;
+    }
+}
+
